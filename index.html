@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+
+  <title>DOCUMENT</title>
+  
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" href="responsive.css">
+  <!-- stylesheetの読み込み -->
+
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <!-- viewportの設定-->
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <!--fontawesomeの適用 -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <!-- JSの適用 -->
+
+</head>
+<body>
+  <header>
+    <a href="#" class="reload"><img class="headerLogoImg" src="https://www.i-bond.jp/service/images/common/header/logo_pc.png" alt="i-BondLogoImg"></a>
+    
+    <div class="headerRight">
+      <ul>
+        <li><a href="#"><span class="txt">i-Bondとは</span><i class="fas fa-chevron-down"></i></a><span class="slash">/</span></li>
+        <li><a href="#"><span class="txt">お金 第3の置き場とは</span><span class="margin"></span></a><span class="slash">/</span></li>
+        <li><a href="#"><span class="txt">商品</span><span class="margin"></span></a><span class="slash">/</span></li>
+        <li><a href="#"><span class="txt">ご利用ガイド</span><i class="fas fa-chevron-down"></i></a><span class="slash">/</span></li>
+        <li><a href="#"><span class="txt">よくあるご質問</span></a></li>
+      </ul>
+
+      <a href="#" class="btn logIn">ログイン</a>
+      <a href="#" class="btn register">新規ユーザー登録</a>
+    </div>
+  </header>
+
+  <section class="blank1"></section>
+
+  <section class="slideShow">
+    <img src="https://www.i-bond.jp/service/images/icn_slider_prev.png" alt="" class="slideLeft slideBtn">
+
+    <ul class="slider">
+      <li><a href="#"><img src="https://www.i-bond.jp/service/images/img_slider_06.png" width="341" height="227" alt=""></a></li>
+      <li><a href="#"><img src="https://www.i-bond.jp/service/images/img_slider_03.jpg" width="341" height="227" alt=""></a></li>
+      <li><a href="#"><img src="https://www.i-bond.jp/service/images/img_slider_07.png" width="341" height="227" alt=""></a></li>
+      <li><a href="#"><img src="https://www.i-bond.jp/service/images/img_slider_05.png" width="341" height="227" alt=""></a></li>
+    </ul>
+
+    <img src="https://www.i-bond.jp/service/images/icn_slider_next.png" alt="" class="slideRight slideBtn">
+  </section>
+
+  <section class="fadeIn">
+    <div class="fadeInContents">
+      <p>あなたの<span>「お金の置き場所」</span>は？</p>
+
+      <div class="fadeInImages">
+        <ul>
+          <li><img src="https://www.i-bond.jp/service/images/img_place_01_pc.png" alt=""></li>
+          <li><img src="https://www.i-bond.jp/service/images/img_place_02_pc.png" alt=""></li>
+        </ul>
+        <img class="fadeInTxt" src="images/お金第3の置き場【i-Bond】株式会社マリオン.png">
+      </div>
+    </div>
+  </section>
+
+  <section class="blank2"></section>
+
+  <section class="graphs">
+    <ul class="graphChoices">
+      <!--clickedクラスの移動で、選択済みボタンを分かるようにする　darkenプロパティを使うと良い-->
+      <li class="clicked" id="index1"><span class="smallFont">第1の置き場</span><p class="bigFont">定期預金と比較</p></li>
+      <li id="index2"><span class="bigFont">全ての置き場の比較</span></li>
+      <li id="index3"><span class="smallFont">第2の置き場</span><p class="bigFont">株式投資と比較</p></li>
+    </ul>
+
+    <ul class="graphsSlider">
+      <li class="open"><img src="https://www.i-bond.jp/service/images/img_graph_01_pc.gif" alt=""></li>
+      <li><img src="https://www.i-bond.jp/service/images/img_graph_02_pc.gif" alt=""></li>
+      <li><img src="https://www.i-bond.jp/service/images/img_graph_03_pc.gif" alt=""></li>
+    </ul>
+  </section>
+
+  <section class="orderedFadeIn">
+    <div class="orderedFadeInContents">
+      <div class="FadeInttl">
+        <span id="span1">PICK UP</span><span id="span2">データで見るi-Bond</span>
+      </div>
+
+      <ul>
+        <li><p>気軽に始められる</p><img src="https://www.i-bond.jp/service/images/img_data_01_sp.png" alt=""></li>
+        <li><p>定期預金より高いリターン</p><img src="https://www.i-bond.jp/service/images/img_data_02_sp.png" alt=""></li>
+        <li><p>申込・買取手数料</p><img id="zero" src="https://www.i-bond.jp/service/images/img_data_03_pc.png" alt=""></li>
+        <li><p>申込・買取受付時間</p><img src="https://www.i-bond.jp/service/images/img_data_04_sp.png" alt=""></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="orderedFadeIn2">
+    <h3>お金の自由度を高める<br>i-Bondの3つの特長</h3>
+
+    <ul>
+      <li>
+        <p></p>
+      </li>
+      <li>
+        <p></p>
+      </li>
+      <li>
+        <p></p>
+      </li>
+    </ul>
+
+    <a href="#" class="feature">i-Bondの特長<img src="https://www.i-bond.jp/service/images/common/footer/icn_footer_navi_02.png" alt=""></a>
+  </section>
+
+  <section class="blank3"></section>
+
+  <footer></footer>
+
+  <script src="script.js"></script>
+  <!-- script.jsファイルの読み込み -->
+</body>
+</html>
